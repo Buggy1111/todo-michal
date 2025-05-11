@@ -1,0 +1,28 @@
+
+@media (max-width: 768px) {
+  #todo-form .row {
+    flex-direction: column;
+  }
+
+  #todo-form .col-md-5,
+  #todo-form .col-md-4,
+  #todo-form .col-md-3 {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding: 0.75rem;
+  }
+
+  li.list-group-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  li.list-group-item .d-flex.gap-2 {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+}
